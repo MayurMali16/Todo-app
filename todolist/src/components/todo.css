@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .addTasks {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+
+  }
+ 
+  .addTasks input{
+   width: 50%;
+   border-radius: 5px;
+   padding: 10px;
+  }
+  
+  .add-button {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .addTasks {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+
+  }
+ 
+  .addTasks input{
+   width: 50%;
+   border-radius: 5px;
+   padding: 10px;
+  }
+  
+  .add-button {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    width: 50px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: blueviolet;
+  }
+
+  .showTasks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  .eachTask{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      background-color: white;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      width: 330px;
+      height: 40px;
+      padding-left: 10px;
+      padding-right: 10px;
+      
+  }
+
+  .eachTask:hover{
+    background-color: blueviolet;
+  }
+
+  .eachTask p{
+    margin-right: 250px;
+  
+  }
+
+  .eachTask i{
+    position: fixed;
+    color: red ;
+    background: none;
+    cursor: pointer;
+    margin-left: 270px;
+  }
+
+  .eachTask i:hover{
+    background-color: blueviolet;
+  }
